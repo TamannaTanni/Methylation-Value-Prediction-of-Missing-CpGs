@@ -1,2 +1,5 @@
 # Methylation-Value-Prediction-of-Missing-CpGs
-Bioinformatics Project
+
+The whole genome bisulfite sequencing (WGBS) dataset used in this project was generated under the Centre for Epigenomics Mapping Technologies (CEMT), Vancouver, Canada [www.epigenomes.c]. For WGBS, genomic DNA was collected from germinal center B-cells (GCB) that expressed CD19, IgD and CD38 cell surface markers. The GCB cells were collected from from Tonsil of a 3 year old male individual. The datasets were processed using the standard protocol described here [http://www.epigenomes.ca/protocols-and-standards]. We collected two files-
+1. Known data file- This contains information about those CpGs of the autosomal chromosomes whose methylation status is determined by WGBS. The information provided here are- CpG location on chromosome(start and end position), number of bi-sulfite converted reads (un-methylated CpG number), number of bi-sulfite unconverted reads (methylated CpG number) and the β value (ratio of methylated and unmethylated reads).
+2. Known and unknown data file- This contains information about the total CpGs of autosomal chromosomes whether the methylation status is known or not. This file only includes the start and end position of the CpGs.
